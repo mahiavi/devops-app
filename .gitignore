@@ -32,7 +32,16 @@ build/
 ### VS Code ###
 .vscode/
 
+# Terraform local files
+**/.terraform/*
+**/terraform.tfstate
+**/terraform.tfstate.*
+**/terraform.tfvars
+**/*.tfplan
+**/crash.log
 
+# macOS
+.DS_Store
 ### macOS ###
 .DS_Store
 
